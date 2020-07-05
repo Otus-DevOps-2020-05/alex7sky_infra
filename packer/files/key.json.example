@@ -1,0 +1,8 @@
+{
+   "id": "",
+   "service_account_id": "",
+   "created_at": "2020-07-04T14:54:59Z",
+   "key_algorithm": "RSA_2048",
+   "public_key": "-----BEGIN PUBLIC KEY-----\Тут должна быть открытая часть ключа\n-----END PUBLIC KEY-----\n",
+   "private_key": "-----BEGIN PRIVATE KEY-----\тут должна быть закрытая часть ключа\n-----END PRIVATE KEY-----\n"
+}
