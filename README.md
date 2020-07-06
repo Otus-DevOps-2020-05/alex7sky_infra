@@ -1,5 +1,14 @@
 # alex7sky_infra
 alex7sky Infra repository
+# В директорию packer добавлены:
+# Файл переменных variables.json.example
+# Файл для сборки fry образа  ubuntu16.json
+# Файл для сборки bake образа immutable.json
+# Скрипты деплоя fry образа в директории packer/scripts/
+# Скрипт деплоя bake образа в директории packer/files/deploy.sh ( Для установки монги и руби используются скрипты от fry образа из packer/scripts/)
+# В директорию config-scripts/ добавлен скрипт для бысртой выкатки вируталки из созданного bake образа
+
+
 ### Для подключения в одну команду можно использовать это: "ssh -i ~/.ssh/appuser -A -J appuser@84.201.172.139  appuser@10.130.0.24"
 bastion_IP = 84.201.172.139
 someinternalhost_IP = 10.130.0.24
